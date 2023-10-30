@@ -14,9 +14,10 @@ const Body = () => {
       element: <Browse />,
     },
   ]);
+
   return (
     <div>
-      <RouterProvider router={appRouter}/>
+      <RouterProvider router={appRouter} />
     </div>
   );
 };
